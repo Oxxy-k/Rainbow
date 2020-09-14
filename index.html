@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LayOut</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="search-middle"><input class="search-text" type="text" /></div>
+      <div class="btn"><button class="btn-search">Нажми сюда</button></div>
+    </div>
+    <div class="middle">
+      <div class="middle-fraction">Ячейка 1</div>
+      <div class="middle-fraction">Ячейка 2</div>
+      <div class="middle-fraction">Ячейка 3</div>
+      <div class="middle-fraction">Ячейка 4</div>
+      <div class="middle-fraction">Ячейка 5</div>
+      <div class="middle-fraction">Ячейка 6</div>
+      <div class="middle-fraction">Ячейка 7</div>
+      <div class="middle-fraction">Ячейка 8</div>
+      <div class="middle-fraction">Ячейка 9</div>
+      <div class="middle-fraction">Ячейка 10</div>
+    </div>
+    <div class="text">
+      <div class="text-left">
+        <p>
+          Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+          ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+          Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+          ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+          Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+          ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+          Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+          ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+        </p>
+      </div>
+      <div>
+        <p class="text-right">
+          Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то
+          текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст
+          Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то
+          текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст
+          Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то
+          текст Какой-то текст Какой-то текст
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Все права защищены</p>
+    </div>
+  </body>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    .header {
+      background: red;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      overflow: auto;
+      position: relative;
+      display: flex;
+      padding: 30px;
+    }
+    .search-text {
+      width: 350px;
+      height: 29px;
+    }
+    .btn-search {
+      margin-left: 50px;
+      height: 35px;
+      width: 100px;
+    }
+    .middle-fraction {
+      background: yellowgreen;
+      border: double darkslateblue;
+      text-align: center;
+      width: 350px;
+      height: 200px;
+    }
+
+    .middle {
+      padding-left: 60px;
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .text {
+      background: yellow;
+      padding-left: 60px;
+      display: flex;
+    }
+    .text-left {
+      padding-right: 100px;
+      width: 800px;
+    }
+    .text-right {
+      padding-left: 80px;
+      width: 800px;
+    }
+    .footer {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background: palegreen;
+      text-align: center;
+    }
+  </style>
+</html>
